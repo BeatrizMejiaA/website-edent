@@ -4,7 +4,7 @@ import { Patient } from "./CreatePatient";
 
 import { Sidebar } from "./Sidebar";
 
-import { HomeScreen } from "./HomeScreen";
+
 import { Schedule } from "./ScheduleScreen";
 import { Report } from "./ReportScreen";
 import { RegisterService } from "./RegisterService";
@@ -20,7 +20,6 @@ export const CalendarScreen = () => {
         <div>
           <Switch>
             <Route exact path="/">
-              <HomeScreen />
             </Route>
             <Route exact path="/patient" component={Patient} />
             <Route exact path="/schedule" component={Schedule} />
