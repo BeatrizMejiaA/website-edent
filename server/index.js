@@ -23,7 +23,7 @@ const db = mysql.createConnection({
   user: process.env.USER_DB,
   password: process.env.PASSWORD_DB,
   database: process.env.DATABASE,
-  //port:3306
+  port:3306
 });
 
 //var conn = mysql.createConnection({host: "e-dent.mysql.database.azure.com", user: "admin_leticia@e-dent", password: {your_password}, database: {your_database}, port: 3306);
