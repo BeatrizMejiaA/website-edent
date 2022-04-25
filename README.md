@@ -14,6 +14,6 @@
 ###### Este es un sitio web inicial, que sirvio de practica de un bootcamp de reactjs y node.
 ###### Existen varias modificaciones por realizarle al sitio web, que se estaran implementando y posterior se publicara en azure.
 
-###### Para su ejecucion siga los siguientes pasos:
-###### Ingrese a la carpeta de frontend y ejecute npm start
-###### Ingrese a la carpeta de server y ejecute npm run devStart
+#### Para su ejecucion siga los siguientes pasos:
+##### Ingrese a la carpeta de frontend (cree el paquete de node_module con npm install) y ejecute npm start
+##### Ingrese a la carpeta de server (cree el paquete de node_module con npm install) y ejecute npm run devStart
