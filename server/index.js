@@ -19,11 +19,11 @@ const PORT = process.env.PORT;
 });*/
 
 const db = mysql.createConnection({
-  host: 'e-dent.mysql.database.azure.com',
-  user: 'admin_leticia@e-dent',
-  password: '#edent_2022',
-  database: 'edent',
-  port:3306
+  host: process.env.HOST_DB,
+  user: process.env.USER_DB,
+  password: process.env.PASSWORD_DB,
+  database: process.env.DATABASE,
+  //port:3306
 });
 
 //var conn = mysql.createConnection({host: "e-dent.mysql.database.azure.com", user: "admin_leticia@e-dent", password: {your_password}, database: {your_database}, port: 3306);
