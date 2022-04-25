@@ -3,7 +3,7 @@
 #### Este es un sitio web que se utilizara para llevar la agenda de una clinica dental con las siguientes acciones:
 ##### - Registra pacientes
 ##### - Agrega servicios que se manejan en la clinica dental
-##### - Agensa las citas que se tendran
+##### - Agenda las citas que se tendran
 ##### - Existe una agenda para poder visualizar las citas
 ##### - Existe un reporte para visualizar todas las citas
 
